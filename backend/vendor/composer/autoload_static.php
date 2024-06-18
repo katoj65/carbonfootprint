@@ -511,6 +511,7 @@ class ComposerStaticInitc4a6a6e63374c7570371bb40bc1e806f
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
         'App\\Models\\Attribute' => __DIR__ . '/../..' . '/app/Models/Attribute.php',
+        'App\\Models\\BusinessSector' => __DIR__ . '/../..' . '/app/Models/BusinessSector.php',
         'App\\Models\\Country' => __DIR__ . '/../..' . '/app/Models/Country.php',
         'App\\Models\\District' => __DIR__ . '/../..' . '/app/Models/District.php',
         'App\\Models\\GreenhouseGas' => __DIR__ . '/../..' . '/app/Models/GreenhouseGas.php',

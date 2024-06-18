@@ -20,6 +20,7 @@ return array(
     'App\\Http\\Middleware\\TrustProxies' => $baseDir . '/app/Http/Middleware/TrustProxies.php',
     'App\\Http\\Middleware\\VerifyCsrfToken' => $baseDir . '/app/Http/Middleware/VerifyCsrfToken.php',
     'App\\Models\\Attribute' => $baseDir . '/app/Models/Attribute.php',
+    'App\\Models\\BusinessSector' => $baseDir . '/app/Models/BusinessSector.php',
     'App\\Models\\Country' => $baseDir . '/app/Models/Country.php',
     'App\\Models\\District' => $baseDir . '/app/Models/District.php',
     'App\\Models\\GreenhouseGas' => $baseDir . '/app/Models/GreenhouseGas.php',
