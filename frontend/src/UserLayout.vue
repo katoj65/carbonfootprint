@@ -669,7 +669,7 @@ data(){return{
 }}
 }
 </script>
-<style>
+<style scoped>
 @import url('../src/assets/template1/css/dashlite.css');
 @import url('../src/assets/template1/css/dashlite.min.css');
 @import url('../src/assets/template1/css/theme.css');
@@ -685,5 +685,9 @@ color:white;
 }
 .router_menu{
 color:black;
+}
+
+h2,h2,h3,h4,h5,h6,p{
+font-family: system-ui;
 }
 </style>

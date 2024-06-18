@@ -82,7 +82,7 @@
   </strong></p>
   <div class='emission_description'>
   <i class="bi bi-arrow-up" style="color:red;"></i>
-<span style="color:black">{{ item1.amount }}</span>
+<span style="color:black" class="emission_amount">{{ item1.amount }}</span>
   </div>
   </a>
   </div>
@@ -98,7 +98,7 @@
     </strong></p>
     <div class='emission_description'>
     <i class="bi bi-arrow-up" style="color:red;"></i>
-    <span style="color:black">{{ item2.amount }}</span>
+    <span style="color:black" class="emission_amount">{{ item2.amount }}</span>
     </div>
     </a>
     </div>
@@ -116,7 +116,7 @@
       </strong></p>
       <div class='emission_description'>
       <i class="bi bi-arrow-up" style="color:red;"></i>
-      <span style="color:black">{{ item3.amount }}</span>
+      <span style="color:black" class="emission_amount">{{ item3.amount }}</span>
       </div>
       </a>
       </div>
@@ -133,7 +133,7 @@
         </strong></p>
         <div class='emission_description'>
         <i class="bi bi-arrow-up" style="color:red;"></i>
-        <span style="color:black">{{ item4.amount }}</span>
+        <span style="color:black" class="emission_amount">{{ item4.amount }}</span>
         </div>
         </a>
         </div>
@@ -899,6 +899,9 @@ item4:{name:'Wastes',amount:'200M T',icon:'/assets/icons/weather.png'}
   </script>
 
   <style scoped>
+  h2,h2,h3,h4,h5,h6,p{
+    font-family: system-ui;
+    }
   .cover{
   background-image: url('../assets/images/deforestation.jpeg');
   height: 400px;
@@ -930,5 +933,12 @@ padding:0;
 .featured-block-text{
 color:#138D75;
 }
+
+.emission_amount{
+font-size:18px;
+}
+
+
+
 
   </style>
